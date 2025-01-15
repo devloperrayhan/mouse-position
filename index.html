@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mouse Position Logger</title>
+    <title>Mouse Position Logger (Developer Rayhan)</title>
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <style>
         #textarea {
-            width: 10%;
+            width: 28%;
             height: 300px;
             overflow-y: auto;
             background: #f9f9f9;
@@ -15,6 +15,16 @@
             padding: 10px;
             font-family: monospace;
             white-space: pre-wrap;
+        }
+        @media screen and (max-width: 600px) {
+            #textarea {
+                width: 50%;
+            }
+        }
+        @media screen and (max-width: 324px) {
+            #textarea {
+                width: 28%;
+            }
         }
     </style>
 </head>
